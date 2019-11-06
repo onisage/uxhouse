@@ -1,23 +1,32 @@
 /* Grid */
 
-.flex {
+.inner {
   display:flex;
   justify-content:center;
-  align-items:flex-start;
+  align-items:center;
+  align-content:center;
+  width:100%;
+}
+
+.flex {
+  display:flex;
+  justify-content:space-between;
+  align-content:flex-start;
+  max-width:75%;
 }
 
 .item-s {
-  flex-basis:25%;
+  flex-basis:23%;
 }
 
 
 .item-d {
-  flex-basis:50%;
+  flex-basis:48%;
 }
 
 
 .item-t {
-  flex-basis:75%;
+  flex-basis:73%;
 }
 
 
