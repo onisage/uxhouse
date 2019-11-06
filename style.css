@@ -1,0 +1,40 @@
+/* Grid */
+
+.flex {
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+.item-s {
+  flex-basis:25%;
+}
+
+
+.item-d {
+  flex-basis:50%;
+}
+
+
+.item-t {
+  flex-basis:75%;
+}
+
+
+.item-f {
+  flex-basis:100%;
+}
+
+/* Type */
+
+h1, h2, h3, p, a {
+  font-family:'Open-Sans', sans-serif;
+}
+
+p, a {
+  font-weight:400;
+}
+
+.title {
+  font-weight:700;
+}
