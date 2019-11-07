@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Bevan|Roboto&display=swap');
 
+/* Icon */
+
+.icon {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50px;
+}
+
 /* Grid */
 
 .inner {
