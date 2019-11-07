@@ -18,21 +18,25 @@
 }
 
 .item-s {
+  display:flex;
   flex-basis:23%;
 }
 
 
 .item-d {
+  display:flex;
   flex-basis:48%;
 }
 
 
 .item-t {
+  display:flex;
   flex-basis:73%;
 }
 
 
 .item-f {
+  display:flex;
   flex-basis:100%;
 }
 
