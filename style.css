@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan|Roboto&display=swap');
+
 /* Grid */
 
 .inner {
@@ -37,7 +39,7 @@
 /* Type */
 
 h1, h2, h3, p, a {
-  font-family:'Open-Sans', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
 p, a {
@@ -46,4 +48,5 @@ p, a {
 
 .title {
   font-weight:700;
+  font-family:'Bevan', cursive;
 }
