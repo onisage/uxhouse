@@ -100,6 +100,7 @@ body {
 
 .button-primary:hover {
   background-color:#505050;
+  cursor:pointer;
 }
 
 /* Type */
