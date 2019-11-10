@@ -28,17 +28,18 @@ body {
   width:80%;
   max-width:800px;
   margin:auto;
-  margin-top:15%;
+  margin-top:5%;
 }
 
 .inner p {
   max-width: 800px;
+  margin:0 0 30px 0;
 }
 
 .waffles {
-  position:absolute;
+  position:fixed;
   height:800px;
-  width:1000px;
+  width:20%;
   right:0;
   bottom:0;
 }
