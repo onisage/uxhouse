@@ -130,8 +130,8 @@ p, a {
   .waffles {
     position:fixed;
     width:20%;
-    right:-10%;
-    bottom:-10%;
+    right:-5%;
+    bottom:-5%;
   }
 
   .waffles img {
@@ -141,13 +141,13 @@ p, a {
   .waffles img:first-child {
     position:absolute;
     right:-0px;
-    bottom:-55px;
+    bottom:-45px;
   }
 
   .waffles img:nth-child(2) {
     position:absolute;
-    right:-50px;
-    bottom:-50px;
+    right:-40px;
+    bottom:-40px;
   }
   
   /* Button */
