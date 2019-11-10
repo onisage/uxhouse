@@ -98,6 +98,10 @@ body {
   font-size:27px;
 }
 
+.button-primary:hover {
+  color:rgba(205, 205, 205, 1);
+}
+
 /* Type */
 h1, h2, h3, p, a, button {
   font-family:'Inter', sans-serif;
@@ -127,7 +131,7 @@ p, a {
   }
 
   .waffles img {
-    width:50%;
+    width:300px;
   }
 
   .waffles img:first-child {
