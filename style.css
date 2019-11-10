@@ -127,19 +127,19 @@ p, a {
   }
 
   .waffles img {
-    width:25%;
+    width:50%;
   }
 
   .waffles img:first-child {
     position:absolute;
     right:-0px;
-    bottom:-110px;
+    bottom:-55px;
   }
 
   .waffles img:nth-child(2) {
     position:absolute;
-    right:-100px;
-    bottom:-100px;
+    right:-50px;
+    bottom:-50px;
   }
   
   /* Button */
