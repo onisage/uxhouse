@@ -99,8 +99,7 @@ body {
 }
 
 .button-primary:hover {
-  background-color:#191919;
-  color:rgba(205, 205, 205, 1);
+  background-color:#505050;
 }
 
 /* Type */
