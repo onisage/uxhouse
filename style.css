@@ -25,10 +25,8 @@ body {
 .inner {
   display:flex;
   flex-direction:column;
-  width:50%;
-  position:absolute;
-  top:30%;
-  left:20%;
+  width:800px;
+  margin:auto;
 }
 
 .inner p {
