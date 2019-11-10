@@ -39,8 +39,8 @@ body {
 .waffles {
   position:fixed;
   width:20%;
-  right:-10px;
-  bottom:-10px;
+  right:-10%;
+  bottom:-10%;
 }
 
 .waffles img {
@@ -49,14 +49,14 @@ body {
 
 .waffles img:first-child {
   position:absolute;
-  right:-5%;
-  bottom:-20%;
+  right:-50px;
+  bottom:-50px;
 }
 
 .waffles img:nth-child(2) {
   position:absolute;
-  right:-40%;
-  bottom:-10%;
+  right:-100px;
+  bottom:-100px;
 }
 
 .flex {
