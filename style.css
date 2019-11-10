@@ -38,14 +38,13 @@ body {
 
 .waffles {
   position:fixed;
-  height:800px;
   width:20%;
-  right:0;
-  bottom:0;
+  right:-10px;
+  bottom:-10px;
 }
 
 .waffles img {
-  height:50vh;
+  
 }
 
 .waffles img:first-child {
