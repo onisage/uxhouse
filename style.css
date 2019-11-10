@@ -43,14 +43,10 @@ body {
   bottom:-10%;
 }
 
-.waffles img {
-  
-}
-
 .waffles img:first-child {
   position:absolute;
-  right:-50px;
-  bottom:-50px;
+  right:-0px;
+  bottom:-110px;
 }
 
 .waffles img:nth-child(2) {
@@ -120,4 +116,40 @@ p, a {
   font-size:27px;
   line-height:35px;
   letter-spacing:0.01em;
+}
+
+@media only screen and (max-width: 600px) {
+  .waffles {
+    position:fixed;
+    width:20%;
+    right:-10%;
+    bottom:-10%;
+  }
+
+  .waffles img {
+    width:25%;
+  }
+
+  .waffles img:first-child {
+    position:absolute;
+    right:-0px;
+    bottom:-110px;
+  }
+
+  .waffles img:nth-child(2) {
+    position:absolute;
+    right:-100px;
+    bottom:-100px;
+  }
+  
+  /* Button */
+  .button-primary {
+    width:100%;
+    background-color:#212121;
+    padding:30px;
+    border-radius:15px;
+    color:rgba(255, 255, 255, 1);
+    border:none;
+    font-size:27px;
+  }
 }
