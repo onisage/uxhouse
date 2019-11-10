@@ -106,7 +106,10 @@ body {
 /* Type */
 h1, h2, h3, p, a, button {
   font-family:'Inter', sans-serif;
-  font-weight:200;
+}
+
+h1 {
+  font-weight:600;
 }
 
 p, a {
@@ -114,11 +117,11 @@ p, a {
 }
 
 .title {
-  font-size:62px;
+  font-size:2rem;
 }
 
 .introduction-text {
-  font-size:27px;
+  font-size:1rem;
   line-height:35px;
   letter-spacing:0.01em;
 }
