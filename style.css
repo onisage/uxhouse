@@ -146,7 +146,7 @@ p, a {
   }
 
   .waffles img {
-    width:300px;
+    width:250px;
   }
 
   .waffles img:first-child {
@@ -169,6 +169,6 @@ p, a {
     border-radius:15px;
     color:rgba(255, 255, 255, 1);
     border:none;
-    font-size:2rem;
+    font-size:1.5rem;
   }
 }
