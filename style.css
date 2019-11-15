@@ -165,10 +165,10 @@ p, a {
   .button-primary {
     width:100%;
     background-color:#212121;
-    padding:30px;
+    padding:10px;
     border-radius:15px;
     color:rgba(255, 255, 255, 1);
     border:none;
-    font-size:27px;
+    font-size:2rem;
   }
 }
