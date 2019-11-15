@@ -127,6 +127,17 @@ p, a {
 }
 
 @media only screen and (max-width: 600px) {
+  
+  .title {
+    font-size:3rem;
+  }
+
+  .introduction-text {
+    font-size:1rem;
+    line-height:35px;
+    letter-spacing:0.01em;
+  }
+  
   .waffles {
     position:fixed;
     width:20%;
