@@ -26,8 +26,6 @@ body {
 }
 
 .inner {
-  display: flex;
-  flex-direction: column;
   width: 80%;
   max-width: 800px;
 }
