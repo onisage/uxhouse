@@ -4,9 +4,9 @@
 
 ## Preamble
 
-The whole motivation behind UXh was started when I was trying to engage a dead community of people who did not take themselves or their craft as seriously as I believe they should. So, I gathered the most active users and started a separate community. Before, my scope was limited to someone else’s vision, or rather a lack of one. Now, my vision is not limited. 
+The motivation of UXhouse is to bring people together and help them further the quality of their work and education. It has started small, and all growth will be measured. Decisions will be weighed as a community, and all members have a voice.
 
-**UXhouse aims to become an organization dedicated to cultivating a wonderful community of people that want to further their craft regardless of their current positions or skill levels.**
+**Overall, UXhouse aims to become an organization dedicated to cultivating a wonderful community of people that want to further their craft regardless of their current positions or skill levels.**
 
 ## Table of Contents
 
@@ -29,7 +29,7 @@ We have a static [website](https://uxhouse.co) where people can find a short int
 
 ## General Goals
 
-While UXhouse will always stay close to where it started, there are aspirations to be and provide more than just a place to hang out. The community was created with the intention to bring people together, but also to help those people further themselves in their passions and craft working within the umbrella of UX.
+While UXhouse will always stay close to where it started, there are aspirations to be and provide more than just a place to hang out. The community was created with the intention to bring people together, but also to help those people further themselves in their passions and craft working within the umbrella of UX. Below are all the current plans for growth and their priority at this time.
 
 ### Now
 
