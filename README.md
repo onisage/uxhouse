@@ -15,46 +15,46 @@ The whole motivation behind UXh was started when I was trying to engage a dead c
 1. [Expansion Efforts](#expansion-efforts)
 1. [Conclusion](#conclusion)
 
-# Current State
+## Current State
 
-## Discord Server
+### Discord Server
 
 UXh currently exists solely as a discord community. Discord is the platform that UXh was created on and will always be an integral part of the larger organization. The only thing that stands to happen with the Discord server is that it will grow in userbase, quality of life, and organized activity.
 
 Integrating Discord into the ecosystem of all future applications and devices is something that the community will have an active say and part in developing.
 
-## Website
+### Website
 
 We have a static [website](https://uxhouse.co) where people can find a short intro and link to join the server. Under active development is a form that asks for Discord ID, email, and Title/Interest (regarding what UX is to them).
 
-# General Goals
+## General Goals
 
 While UXhouse will always stay close to where it started, there are aspirations to be and provide more than just a place to hang out. The community was created with the intention to bring people together, but also to help those people further themselves in their passions and craft working within the umbrella of UX.
 
-## Now
+### Now
 
 * Get more organic traffic and new users through the website.
 * Organize regular meetings within the community to cultivate more connectedness and improvement for users.
 * Facilitate collaborative projects.
 
-## Soon
+### Soon
 
 * Expansion of website to host results of collaborative efforts and educational content.
 * Develop a social media presence.
 
-## Later
+### Later
 
 * Patreon integration to facilitate things like access to tools, access to educational resources, creation of content, advertising/outreach, etc.
 
-# Expansion Efforts
+## Expansion Efforts
 
-## Objectives
+### Objectives
 
 * Continue to refactor and improve the structure of current facilities.
 * Create/source informative and influential content regarding UX and everything it envelopes.
 * Find as many ways to benefit the members of the community as possible.
 * Keep original character of the community and quality of life close to the heart in all efforts.
 
-# Conclusion
+## Conclusion
 
 UXhouse is a wonderful community, it will always be a wonderful community, and it will garner growth because of that. The goals and objectives outlined in this document are all provisionary and open to discussion in order to provide the flexibility required to maintain the orginal integrity of what currently exists. Ultimately, there will never be a drastic, fundamental change to UXhouse without approval of the community itself.
