@@ -111,7 +111,6 @@
 export default {
     data: () => ({
         attemptSubmit: false,
-        submitError: false,
         errorMessage: '',
         form: {
             email: '',
@@ -119,6 +118,7 @@ export default {
             'form-name': 'register',
             interest: ''
         },
+        submitError: false,
         submitSuccess: false
     }),
 
@@ -154,7 +154,6 @@ export default {
         async register() {
             this.attemptSubmit = true
             if (!this.validForm) return
-            console.log(this.encode({ ...this.form }))
 
             let response = await fetch(this.$route.path, {
                 method: 'POST',
