@@ -1,83 +1,98 @@
 <template>
     <div class="page">
-        <h1>Welcome to UXhouse!</h1>
         <main>
+            <h1>Welcome to UXhouse!</h1>
             <div id="content">
-                <p>
-                    We’re a group of UX enthusiasts and professionals creating
-                    a community for human-centered thinkers to collaborate,
-                    critique, and share their ideas.
-                </p>
-                <p>Did we mention waffles? We have waffles!</p>
-            </div>
-            <form
-                name="register"
-                method="POST"
-                @submit.prevent="register"
-                data.netlify="true"
-                netlify-honeypot="bot-field"
-            >
-                <h2>Join us!</h2>
-                <input
-                    name="form-name"
-                    type="hidden"
-                    value="register"
-                />
-                <div class="text-field-wrap">
-                    <input
-                        :class="[attemptSubmit && !validDiscordUser
-                        ? 'text-field--error' : '', 'text-field']"
-                        name="discord-user"
-                        placeholder="Discord username"
-                        type="text"
-                        v-model="form.discordUser"
-                    />
-                    <span
-                        class="text-field-message"
-                        v-if="attemptSubmit && !validDiscordUser"
-                    >
-                        Provide a valid discord username.
-                    </span>
+                <div id="paragraphs">
+                    <p>
+                        We’re a group of UX enthusiasts and professionals creating
+                        a community for human-centered thinkers to collaborate,
+                        critique, and share their ideas.
+                    </p>
+                    <p>Did we mention waffles? We have waffles!</p>
                 </div>
-                <div class="text-field-wrap">
-                    <input
-                        :class="[attemptSubmit && !validEmail
-                        ? 'text-field--error' : '', 'text-field']"
-                        name="email"
-                        placeholder="Email"
-                        type="email"
-                        v-model="form.email"
-                    />
-                    <span
-                        class="text-field-message"
-                        v-if="attemptSubmit && !validEmail"
-                    >
-                        Provide a valid email address.
-                    </span>
-                </div>
-                <div class="text-field-wrap">
-                    <textarea
-                        :class="[attemptSubmit && !validInterest
-                        ? 'text-field--error' : '', 'text-field']"
-                        name="interest"
-                        placeholder="Tell us a bit more about your interest in UX..."
-                        type="text"
-                        v-model="form.interest"
-                    />
-                    <span
-                        class="text-field-message"
-                        v-if="attemptSubmit && !validInterest"
-                    >
-                        The interest field is required.
-                    </span>
-                </div>
-                <button
-                    type="submit"
-                    class="button-primary"
+                <form
+                    name="register"
+                    method="POST"
+                    @submit.prevent="register"
+                    data-netlify="true"
+                    netlify-honeypot="bot-field"
                 >
-                    Sign Up
-                </button>
-            </form>
+                    <h2>Join us!</h2>
+                    <input
+                        type="hidden"
+                        name="form-name"
+                        value="register"
+                    />
+                    <div class="text-field-wrap">
+                        <input
+                            :class="[attemptSubmit && !validDiscordUser
+                            ? 'text-field--error' : '', 'text-field']"
+                            name="discord-user"
+                            placeholder="Discord ID"
+                            type="text"
+                            v-model="form.discordUser"
+                        />
+                        <span
+                            class="text-field-message"
+                            v-if="attemptSubmit && !validDiscordUser"
+                        >
+                            Provide a valid discord username.
+                        </span>
+                    </div>
+                    <div class="text-field-wrap">
+                        <input
+                            :class="[attemptSubmit && !validEmail
+                            ? 'text-field--error' : '', 'text-field']"
+                            name="email"
+                            placeholder="Email"
+                            type="email"
+                            v-model="form.email"
+                        />
+                        <span
+                            class="text-field-message"
+                            v-if="attemptSubmit && !validEmail"
+                        >
+                            Provide a valid email address.
+                        </span>
+                    </div>
+                    <div class="text-field-wrap">
+                        <textarea
+                            resize="disabled"
+                            :class="[attemptSubmit && !validInterest
+                            ? 'text-field--error' : '', 'text-field']"
+                            name="interest"
+                            placeholder="Tell us a bit more about your interest in UX..."
+                            type="text"
+                            v-model="form.interest"
+                        />
+                        <span
+                            class="text-field-message"
+                            v-if="attemptSubmit && !validInterest"
+                        >
+                            The interest field is required.
+                        </span>
+                    </div>
+                    <button
+                        type="submit"
+                        class="button-primary"
+                    >
+                        Sign Up
+                    </button>
+                    <span
+                        style="color: green;"
+                        v-if="submitSuccess"
+                    >
+                        Submitted. Check your email for the invite!
+                    </span>
+                    <span
+                        style="color: red;"
+                        v-if="submitError"
+                    >
+                        {{ errorMessage }}
+                    </span>
+                </form>
+            </div>
         </main>
         <div id="waffles">
             <img
@@ -96,12 +111,15 @@
 export default {
     data: () => ({
         attemptSubmit: false,
+        errorMessage: '',
         form: {
             email: '',
             discordUser: '',
             'form-name': 'register',
             interest: ''
-        }
+        },
+        submitError: false,
+        submitSuccess: false
     }),
 
     computed: {
@@ -145,8 +163,13 @@ export default {
 
             let responseOK = response && response.ok
 
-            if (responseOK) return
+            if (responseOK) {
+                this.submitSuccess = true
+                return
+            }
 
+            this.submitError = true
+            this.errorMessage = response.statusText
             throw new Error(response.statusText)
         },
     }
@@ -159,15 +182,21 @@ export default {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 44px;
     padding: 0 0 1rem;
 }
 
 #content {
     width: 100%;
 
-    p {
-        font-size: 20px;
+}
+
+#paragraphs {
+    max-width: 500px;
+
+        p {
+            font-size: 18px;
+            line-height: 35px;
 
         &:first-child {
             margin: 0 0 1rem;
@@ -179,14 +208,20 @@ form {
     display: flex;
     flex-flow: column;
     margin: 1rem 0 0;
+    width: 100%;
+    max-width: 480px;
 
     h2 {
         margin-bottom: 0.5rem;
     }
+
+    textarea {
+        resize: none;
+    }
 }
 
 .text-field-wrap {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     position: relative;
 }
 
@@ -210,9 +245,6 @@ form {
 .text-field-message {
     color: red;
     font-size: 14px;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
 }
 
 .button-primary {
@@ -243,6 +275,53 @@ form {
             position: absolute;
             right: -40px;
             bottom: -40px;
+        }
+    }
+}
+
+@media (min-width: 625px) {
+    h1 {
+        font-size: 52px;
+    }
+
+    .page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    main {
+        width: 100%;
+        max-width: 650px;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+    }
+
+    #content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #paragraphs {
+        max-width: 360px;
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    form {
+        margin: 0 0 0 1rem;
+        max-width: 250px;
+    }
+
+    #waffles {
+        right: -5%;
+        bottom: -5%;
+        img {
+            width: 400px;
         }
     }
 }
