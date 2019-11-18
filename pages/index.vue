@@ -29,7 +29,7 @@
                             :class="[attemptSubmit && !validDiscordUser
                             ? 'text-field--error' : '', 'text-field']"
                             name="discord-user"
-                            placeholder="Discord username"
+                            placeholder="Discord ID"
                             type="text"
                             v-model="form.discordUser"
                         />
@@ -79,6 +79,18 @@
                     >
                         Sign Up
                     </button>
+                    <span
+                        style="color: green;"
+                        v-if="submitSuccess"
+                    >
+                        Submitted. Check your email for the invite!
+                    </span>
+                    <span
+                        style="color: red;"
+                        v-if="submitError"
+                    >
+                        {{ errorMessage }}
+                    </span>
                 </form>
             </div>
         </main>
@@ -99,12 +111,15 @@
 export default {
     data: () => ({
         attemptSubmit: false,
+        submitError: false,
+        errorMessage: '',
         form: {
-            'form-name': 'register',
             email: '',
             discordUser: '',
+            'form-name': 'register',
             interest: ''
-        }
+        },
+        submitSuccess: false
     }),
 
     computed: {
@@ -139,6 +154,7 @@ export default {
         async register() {
             this.attemptSubmit = true
             if (!this.validForm) return
+            console.log(this.encode({ ...this.form }))
 
             let response = await fetch(this.$route.path, {
                 method: 'POST',
@@ -148,8 +164,13 @@ export default {
 
             let responseOK = response && response.ok
 
-            if (responseOK) return
+            if (responseOK) {
+                this.submitSuccess = true
+                return
+            }
 
+            this.submitError = true
+            this.errorMessage = response.statusText
             throw new Error(response.statusText)
         },
     }
@@ -201,7 +222,6 @@ form {
 }
 
 .text-field-wrap {
-    // padding: 1rem 0;
     padding: 0.5rem 0;
     position: relative;
 }
@@ -226,9 +246,6 @@ form {
 .text-field-message {
     color: red;
     font-size: 14px;
-    // position: absolute;
-    // left: 0;
-    // bottom: -5px;
 }
 
 .button-primary {
