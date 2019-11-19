@@ -107,6 +107,8 @@
     </div>
 </template>
 
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/db2c7a4afefa1c05bf294cd7f/5148ad6d1f0796d956de14712.js");</script>
+
 <script>
 export default {
     data: () => ({
