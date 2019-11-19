@@ -1,4 +1,8 @@
-# UXhouse Living Documentation
+# UX House
+
+> We're a group of UX enthusiasts and professionals creating a community for human-centered thinkers to collaborate, critique, and share their ideas. Did we mention waffles? We have waffles!
+
+## UXhouse Living Documentation
 
 *This living document will outline the general arc of goals, growth, and expansion of the UXh community. This document is open to contributions pending approval of alignment with the overall direction and vision of UXhouse (UXh).*
 
@@ -58,3 +62,22 @@ While UXhouse will always stay close to where it started, there are aspirations 
 ## Conclusion
 
 UXhouse is a wonderful community, it will always be a wonderful community, and it will garner growth because of that. The goals and objectives outlined in this document are all provisionary and open to discussion in order to provide the flexibility required to maintain the orginal integrity of what currently exists. Ultimately, there will never be a drastic, fundamental change to UXhouse without approval of the community itself.
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
