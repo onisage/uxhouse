@@ -1,8 +1,8 @@
 {
-  "name": "uxhouse",
+  "name": "uxhouse.co",
   "version": "1.0.0",
-  "description": "We&#39;re a group of UX enthusiasts and professionals creating a community for human-centered thinkers to collaborate, critique, and share their ideas. Did we mention waffles? We have waffles!",
-  "author": "UX House",
+  "description": "We're a group of UX enthusiasts and professionals creating a community for human-centered thinkers to collaborate, critique, and share their ideas. Did we mention waffles? We have waffles!",
+  "author": "UXhouse",
   "private": true,
   "scripts": {
     "dev": "nuxt",
