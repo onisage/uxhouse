@@ -1,8 +1,9 @@
+import pkg from './package'
 export default {
     mode: "universal",
     // Headers of the page
     head: {
-        title: "UX House" || process.env.npm_package_name,
+        title: pkg.name,
         meta: [
             { charset: "utf-8" },
             {
@@ -12,14 +13,12 @@ export default {
             {
                 hid: "description",
                 name: "description",
-                content: process.env.npm_package_description || ""
+                content: pkg.description
             },
             { name: "msapplication-TileColor", content: "#DA532C" },
             { name: "theme-color", content: "#FFFFFF" },
             { property: "og:image:width", content: "279" },
             { property: "og:image:height", content: "279" },
-            { property: "og:title", content: "UX House" },
-            { property: "og:url", content: "https://uxhouse.co" },
             { property: "og:image", content: "https://uxhouse.co/og-image.jpg" }
         ],
         link: [

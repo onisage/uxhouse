@@ -179,6 +179,7 @@ export default {
 <style lang="scss" scoped>
 .page {
     padding: 5vh 5vw;
+    height: 100vh;
 }
 
 h1 {
