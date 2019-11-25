@@ -14,10 +14,16 @@ The motivation of UXhouse is to bring people together and help them further the 
 
 ## Table of Contents
 
-1. [Current State](#current-state)
-1. [General Goals](#general-goals)
-1. [Expansion Efforts](#expansion-efforts)
-1. [Conclusion](#conclusion)
+1. [Community Overview](#overview)
+    1. [Current State](#current-state)
+    1. [General Goals](#general-goals)
+    1. [Expansion Efforts](#expansion-efforts)
+    1. [Conclusion](#conclusion)
+1. [Website Documentation](#website-documentation)
+    1. [Build Setup](#build-setup)
+    1. [Collaborative Figma Document](#collaborative-figma-document)
+
+# Overview
 
 ## Current State
 
@@ -27,9 +33,11 @@ UXh currently exists solely as a discord community. Discord is the platform that
 
 Integrating Discord into the ecosystem of all future applications and devices is something that the community will have an active say and part in developing.
 
+Discord offers a unique opportunity to utilize a generally casual and unprofessional platform that is enjoyable to use for a much wider purpose, and even shifting the nature of what Discord is to the people who visit this server.
+
 ### Website
 
-We have a static [website](https://uxhouse.co) where people can find a short intro and link to join the server. Under active development is a form that asks for Discord ID, email, and Title/Interest (regarding what UX is to them).
+We have a static [website](https://uxhouse.co) where people can find a sign-up form that sends out an email with an invite link to the server. Under active development is the infrastructure for content hosting and social media integration.
 
 ## General Goals
 
@@ -37,18 +45,25 @@ While UXhouse will always stay close to where it started, there are aspirations 
 
 ### Now
 
+* Develop CoC for server and community in general.
 * Get more organic traffic and new users through the website.
+    * Develop standards of outreach and inviting new users.
 * Organize regular meetings within the community to cultivate more connectedness and improvement for users.
+    * Use some type of scheduling solution to get sessions scheduled.
+    * Create a general udnerstanding of what we use these meetings for: peer review and general critique.
 * Facilitate collaborative projects.
+    * Write prompts/briefs to offer the community.
 
 ### Soon
 
-* Expansion of website to host results of collaborative efforts and educational content.
+* Establish branding.
 * Develop a social media presence.
+* Expansion of website to host results of collaborative efforts and educational content.
 
 ### Later
 
 * Patreon integration to facilitate things like access to tools, access to educational resources, creation of content, advertising/outreach, etc.
+* Establish design system.
 
 ## Expansion Efforts
 
@@ -62,6 +77,8 @@ While UXhouse will always stay close to where it started, there are aspirations 
 ## Conclusion
 
 UXhouse is a wonderful community, it will always be a wonderful community, and it will garner growth because of that. The goals and objectives outlined in this document are all provisionary and open to discussion in order to provide the flexibility required to maintain the orginal integrity of what currently exists. Ultimately, there will never be a drastic, fundamental change to UXhouse without approval of the community itself.
+
+# Website Documentation
 
 ## Build Setup
 
@@ -81,3 +98,7 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Collaborative Figma Document
+
+[Link to shared document for mock ups and general design](https://www.figma.com/file/RRo6fjVoLTAeljvRXXbKtb/UX-House-Site?node-id=0%3A1)
