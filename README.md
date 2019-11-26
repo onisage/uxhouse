@@ -15,6 +15,7 @@ The motivation of UXhouse is to bring people together and help them further the 
 ## Table of Contents
 
 1. [Community Overview](#overview)
+    1. [Code of Conduct](#code-of-conduct)
     1. [Current State](#current-state)
     1. [General Goals](#general-goals)
     1. [Expansion Efforts](#expansion-efforts)
@@ -24,6 +25,14 @@ The motivation of UXhouse is to bring people together and help them further the 
     1. [Collaborative Figma Document](#collaborative-figma-document)
 
 # Overview
+
+## Code of Conduct
+
+Below is a list of expected traits and behavior of UXh Members:
+
+1. Be constructive and professional.
+1. Leave the ego at the door.
+1. Keep your mind open to learn and improve your work and knowledge.
 
 ## Current State
 
