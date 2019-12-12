@@ -28,11 +28,14 @@ The motivation of UXhouse is to bring people together and help them further the 
 
 ## Code of Conduct
 
-Below is a list of expected traits and behavior of UXh Members:
+Below are the expected traits and behavior of UXh Members:
 
-1. Be constructive and professional.
-1. Leave the ego at the door.
-1. Keep your mind open to learn and improve your work and knowledge.
+1. Be professional.
+    * Professionalism is a requirement for users in this community. If you cannot conduct yourself well enough to fit the definition of a professional (regardless of titles), you will be asked to leave.
+1. Be constructive.
+    * Feedback and critique can be very sensitive instances of interaction between users. In our field, we need to be able to navigate these interactions tactfully and with taste. If you are unable to be constructive in the way you offer feedback, you will be asked to leave. If you are unable to recieve constructive critique without becoming defensive, you will be asked to leave.
+1. Be willing to learn and improve, regardless of seniority.
+    * This means leaving the ego at the door. There is no good reason that anyone at any level should deny the possibility for improvement in their craft or admit that there is another valid perspective. Serious absolutes will not be tolerated regarding the subjectives such as the creative process and the tools used in that process. If you prove with consistency that you are not maintaining an open mind, you will be asked to leave.
 
 ## Current State
 
