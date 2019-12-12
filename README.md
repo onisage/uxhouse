@@ -33,7 +33,7 @@ Below are the expected traits and behavior of UXh Members:
 1. Be professional.
     * Professionalism is a requirement for users in this community. If you cannot conduct yourself well enough to fit the definition of a professional (regardless of titles), you will be asked to leave.
 1. Be constructive.
-    * Feedback and critique can be very sensitive instances of interaction between users. In our field, we need to be able to navigate these interactions tactfully and with taste. If you are unable to be constructive in the way you offer feedback, you will be asked to leave. If you are unable to recieve constructive critique without becoming defensive, you will be asked to leave.
+    * Feedback and critique can be very sensitive instances of interaction between users. In our field, we need to be able to navigate these interactions tactfully and with taste. If you are unable to be constructive in the way you offer feedback, you will be asked to leave. If you are unable to receive constructive critique without becoming defensive, you will be asked to leave.
 1. Be willing to learn and improve, regardless of seniority.
     * This means leaving the ego at the door. There is no good reason that anyone at any level should deny the possibility for improvement in their craft or admit that there is another valid perspective. Serious absolutes will not be tolerated regarding the subjectives such as the creative process and the tools used in that process. If you prove with consistency that you are not maintaining an open mind, you will be asked to leave.
 
@@ -63,7 +63,7 @@ While UXhouse will always stay close to where it started, there are aspirations 
 * Organize regular meetings within the community to cultivate more connectedness and improvement for users.
     * ~~Start a book club~~ Develop a list of reads to choose from.
     * Use some type of scheduling solution to get sessions scheduled.
-    * Create a general udnerstanding of what we use these meetings for: peer review and general critique.
+    * Create a general understanding of what we use these meetings for: peer review and general critique.
 * Facilitate collaborative projects.
     * Write prompts/briefs to offer the community.
 
@@ -85,7 +85,7 @@ While UXhouse will always stay close to where it started, there are aspirations 
 * Continue to refactor and improve the structure of current facilities.
 * Create/source informative and influential content regarding UX and everything it envelopes.
 * Find as many ways to benefit the members of the community as possible.
-* Keep original character of the community and quality of life close to the heart in all efforts.
+* Keep the original character of the community and quality of life close to the heart in all efforts.
 
 ## Conclusion
 
