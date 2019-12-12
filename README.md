@@ -57,10 +57,11 @@ While UXhouse will always stay close to where it started, there are aspirations 
 
 ### Now
 
-* Develop CoC for server and community in general.
+* ~~Develop CoC for server and community in general.~~ Continue to build on CoC.
 * Get more organic traffic and new users through the website.
     * Develop standards of outreach and inviting new users.
 * Organize regular meetings within the community to cultivate more connectedness and improvement for users.
+    * ~~Start a book club~~ Develop a list of reads to choose from.
     * Use some type of scheduling solution to get sessions scheduled.
     * Create a general udnerstanding of what we use these meetings for: peer review and general critique.
 * Facilitate collaborative projects.
